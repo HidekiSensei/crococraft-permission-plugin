@@ -1,0 +1,12 @@
+name: PermissionCoreCroco
+main: de.hidekisensei.corepermission.CorePermissionsPlugin
+version: '${project.version}'
+api-version: 1.21
+author: HidekiSensei
+description: Core Permission System for the Crococraft Community Server
+
+commands:
+  core:
+    description: Core Permissions Commands
+    usage: /<command>
+    permission: crococraft.core.admin
